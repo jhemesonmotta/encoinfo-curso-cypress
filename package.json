@@ -1,16 +1,24 @@
 {
-  "name": "curso-cypress",
+  "name": "prefabs-cypress",
   "version": "1.0.0",
-  "description": "Projeto do curso de testes automatizados com cypress",
+  "description": "Prefabs para o curso de testes automatizados com cypress",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhemesonmotta/prefabs-curso-cypres"
+  },
   "keywords": [
-    "test",
+    "testing",
     "cypress",
-    "e2e"
+    "e2e",
+    "prefabs"
   ],
-  "author": "Jhemeson",
-  "license": "ISC"
+  "author": "Jhemeson Mota",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.4.0"
+  }
 }
